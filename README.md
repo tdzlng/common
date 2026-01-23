@@ -1,4 +1,6 @@
-# Project Title
+# This is a Templete for README.md
+
+# Project title
 
 A brief description of what this project does and who it's for.
 
