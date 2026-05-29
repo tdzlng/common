@@ -9,8 +9,36 @@ A brief description of what this project does and who it's for.
 Provide a more detailed explanation of the project. What problem does it solve? What are the key features?
 
 ## Getting Started
+### 1. BOM Hardware
 
-### Prerequisites
+List of equipment device in below table:
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <tr>
+    <th align="left">No.</th>
+    <th align="left">Equipment</th>
+    <th align="left">Device name</th>
+    <th align="left">Quantity</th>
+  </tr>
+  <tr><td align="left">1</td><td align="left">VCU</td><td align="left">Pi Zero 2w (3.3V)</td><td align="left">1</td></tr>
+  <tr><td align="left">2</td><td align="left">ECU</td><td align="left">STM32F415RGTX (3.3V)</td><td align="left">1</td></tr>
+  <tr><td align="left">3</td><td align="left">Capture card</td><td align="left">llano 3.0 Fullhd 60Hz</td><td align="left">1</td></tr>
+  <tr><td align="left">4</td><td align="left">UART to com</td><td align="left">CH340</td><td align="left">1</td></tr>
+  <tr><td align="left">5</td><td align="left">Encoder 600RPM pnp type</td><td align="left">YT06-OP-600F-1M-5-24V</td><td align="left">1</td></tr>
+  <tr><td align="left">6</td><td align="left">Battery sensor</td><td align="left">Potentiometer 10K Ohm</td><td align="left">1</td></tr>
+  <tr><td align="left">7</td><td align="left">Button</td><td align="left">Momentary Push Buttons</td><td align="left">5</td></tr>
+  <tr><td align="left">8</td><td align="left">Breadboard</td><td align="left">MB-102 400 8.5x5.5x1cm</td><td align="left">1</td></tr>
+  <tr><td align="left">9</td><td align="left">Jump wire</td><td align="left">Male-female wires</td><td align="left">20</td></tr>
+  <tr><td align="left">10</td><td align="left">Display wire</td><td align="left">Mini HDMI to HDMI</td><td align="left">1</td></tr>
+  <tr><td align="left">11</td><td align="left">Power wire</td><td align="left">Mini USBA to USBA</td><td align="left">1</td></tr>
+  <tr><td align="left">12</td><td align="left">SDCard</td><td align="left">SDCard 64Gb</td><td align="left">1</td></tr>
+  <tr><td align="left">13</td><td align="left">STM32 circuit debugger</td><td align="left">STLink v2</td><td align="left">1</td></tr>
+  <tr><td align="left">14</td><td align="left">Power</td><td align="left">Adapter 10 VDC</td><td align="left">1</td></tr>
+  <tr><td align="left">15</td><td align="left">Power converter</td><td align="left">Power module 10V to 3.3/5V</td><td align="left">1</td></tr>
+  <tr><td align="left">16</td><td align="left">Logic Shift</td><td align="left">TXS0108E 8 Channel Logic 1.4V-5.5V</td><td align="left">1</td></tr>
+</table>
+
+### 2. Prerequisites
 
 List any software, libraries, or tools that need to be installed before using the project.
 
@@ -19,7 +47,7 @@ List any software, libraries, or tools that need to be installed before using th
 npm install -g some-cli-tool
 ```
 
-### Installation
+### 3. Installation
 
 Provide step-by-step instructions on how to install the project.
 
